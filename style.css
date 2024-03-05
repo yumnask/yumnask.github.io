@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/jmk3xov.css");
+/*@import url("https://use.typekit.net/jmk3xov.css"); */
 
 canvas {
   position: fixed;
@@ -34,6 +34,33 @@ h1, h2, h3, blockquote {
   font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+img {
+  max-width: 35%;
+  max-height: 35%;
+  margin-top: 5%;
+}
+
+/*images*/
+.cer {
+  max-width: 45%;
+  max-height: 45%;
+  margin-left: 10%;
+}
+
+.cer1 {
+  margin-left: 30%;
+}
+
+.cer2 {
+  margin-left: 40%;
+}
+
+.creative {
+  max-height: 50%;
+  max-width: 50%;
+  margin-left: 25%;
 }
 
 canvas {

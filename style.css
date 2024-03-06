@@ -57,10 +57,23 @@ img {
   margin-left: 40%;
 }
 
-.creative {
+.creative, .writes {
   max-height: 50%;
   max-width: 50%;
   margin-left: 25%;
+}
+
+.insta {
+  max-height: 5%;
+  max-width: 5%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+a {
+  color: white;
+  font-size: 35px;
+  font-style: italic;
 }
 
 canvas {
@@ -83,7 +96,7 @@ canvas {
     grid-column: 2 / 8;
     padding: 1rem;
     background: var(--dark-bg);
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
   }
@@ -97,7 +110,7 @@ canvas {
 
   blockquote p {
     color: black;
-    background-color: white;
+    /*background-color: white; */
     font-size: 4rem;
     display: inline;
     line-height: 1;
